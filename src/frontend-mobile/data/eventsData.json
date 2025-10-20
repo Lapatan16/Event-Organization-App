@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "name": "Tech Conference 2025",
+    "date": "2025-02-15",
+    "time": "09:00",
+    "location": "Belgrade Convention Center",
+    "description": "Annual technology conference featuring the latest innovations in AI and software development.",
+    "category": "Technology",
+    "image": "https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg"
+  },
+  {
+    "id": "2",
+    "name": "Music Festival Summer",
+    "date": "2025-06-20",
+    "time": "18:00",
+    "location": "Kalemegdan Park",
+    "description": "Three-day music festival featuring local and international artists across multiple genres.",
+    "category": "Music",
+    "image": "https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg"
+  },
+  {
+    "id": "3",
+    "name": "Art Exhibition Opening",
+    "date": "2025-03-10",
+    "time": "19:00",
+    "location": "National Museum",
+    "description": "Contemporary art exhibition showcasing works from emerging Serbian artists.",
+    "category": "Art",
+    "image": "https://images.pexels.com/photos/1839919/pexels-photo-1839919.jpeg"
+  },
+  {
+    "id": "4",
+    "name": "Business Networking Event",
+    "date": "2025-02-28",
+    "time": "17:30",
+    "location": "Hyatt Regency Belgrade",
+    "description": "Connect with industry professionals and expand your business network.",
+    "category": "Business",
+    "image": "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg"
+  },
+  {
+    "id": "5",
+    "name": "Food & Wine Festival",
+    "date": "2025-04-12",
+    "time": "12:00",
+    "location": "Skadarlija",
+    "description": "Taste the best of Serbian cuisine paired with premium local wines.",
+    "category": "Food",
+    "image": "https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg"
+  },
+  {
+    "id": "6",
+    "name": "Marathon Belgrade 2025",
+    "date": "2025-05-18",
+    "time": "07:00",
+    "location": "Republic Square",
+    "description": "Annual marathon through the streets of Belgrade. Register now for early bird pricing.",
+    "category": "Sports",
+    "image": "https://images.pexels.com/photos/2402777/pexels-photo-2402777.jpeg"
+  },
+  {
+    "id": "7",
+    "name": "Startup Pitch Competition",
+    "date": "2025-03-25",
+    "time": "14:00",
+    "location": "ICT Hub",
+    "description": "Young entrepreneurs present their innovative ideas to potential investors.",
+    "category": "Business",
+    "image": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg"
+  },
+  {
+    "id": "8",
+    "name": "Photography Workshop",
+    "date": "2025-04-05",
+    "time": "10:00",
+    "location": "Ada Ciganlija",
+    "description": "Learn professional photography techniques in outdoor settings.",
+    "category": "Education",
+    "image": "https://images.pexels.com/photos/1983032/pexels-photo-1983032.jpeg"
+  }
+]

@@ -1,0 +1,41 @@
+.stats-container {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+        }
+        .resources-summary {
+          display: flex;
+          gap: 20px;
+        
+        }
+        .summary-card {
+          background: #fff;
+          padding: 10px 15px;
+          border-radius: 8px;
+          border: 1px solid #cbcbcb;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+          flex: 1;
+          text-align: center;
+        }
+          .summary-card h3 {
+          font-size: 1rem;
+          color: #555;
+          text-align: center;
+      }
+         ul {
+          list-style-type: none; 
+    }
+    .list-item{
+        font-size: 1.5rem;
+        color: #3c3c3cff;
+    }
+  
+      .summary-card .summary-card-result p {
+          font-size: 2rem; 
+          font-weight: bold; 
+          text-align: center; 
+          margin-top: 2rem; 
+          margin-bottom: 0;
+          color: #3c3c3cff;
+      }
+     

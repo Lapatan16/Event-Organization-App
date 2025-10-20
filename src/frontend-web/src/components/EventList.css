@@ -1,0 +1,101 @@
+.main-div-event-list
+{
+    display: block;
+}
+
+.main-div-event-list p, h3
+{
+    margin: 0;
+}
+
+.main-div-event-list .item
+{
+    /* width: 1200px; */
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 20px;
+
+    background-color: white;
+}
+
+.main-div-event-list .left
+{
+    width: 500px;
+
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    align-items: center;
+}
+
+.main-div-event-list .right
+{
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+.main-div-event-list .right span
+{
+    margin-left: 20px;
+}
+
+.main-div-event-list .right button
+{
+    width: 110px;
+    height: 40px;
+    margin-left: 10px;
+
+    border-radius: 5px;
+    border: 1px solid #0353a4;
+
+    background-color: white;
+    font-size: 16px;
+    color: #0353a4;
+}
+
+
+.main-div-event-list #vise:hover
+{
+    background-color: #eae9e9;
+    cursor: pointer;
+}
+
+.main-div-event-list .image
+{
+    height: 100px;
+    width: 180px;
+}
+
+.main-div-event-list .image > img
+{
+    width: 180px;
+    height: 100px;
+
+    border-radius: 5px
+}
+
+.main-div-event-list .Aktivan
+{
+    color: rgb(9, 188, 9);
+}
+
+.main-div-event-list .Istekao
+{
+    color: rgb(219, 0, 0);
+}
+
+.main-div-event-list .Nacrt
+{
+    color: rgb(255, 149, 0);
+}

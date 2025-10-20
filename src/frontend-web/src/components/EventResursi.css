@@ -1,0 +1,38 @@
+.dodaj-novi-resurs{
+    background-color: #0353a4;
+}
+.dodaj-novi-resurs:hover{
+    background-color: #003559;
+}
+.opcija-javni .p-button.p-highlight{
+   background: #0353a4 !important; 
+  color: #fff !important;       
+  border-color: #0353a4 !important;
+}
+
+
+.my-select-btn .p-button:not(.p-highlight):hover {
+  background: #003559;
+}
+
+/* .event-resurs-main-div 
+.p-treetable .p-treetable-tbody > tr > td {
+  white-space: normal;
+  word-break: break-word;
+}
+
+.event-resurs-main-div .p-treetable .p-treetable-tbody > tr > td .p-treetable-toggler {
+  vertical-align: top;
+}
+
+.event-resurs-main-div .p-treetable .p-treetable-tbody > tr > td span {
+  display: inline-block; 
+} */
+
+/* .p-treetable .p-treetable-tbody > tr > td .p-treetable-toggler + span {
+  display: block;
+  white-space: normal;
+  word-break: break-word;
+  padding-left: 0.25rem; 
+} */
+

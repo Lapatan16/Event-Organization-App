@@ -1,0 +1,21 @@
+.lista-ulaznica
+{
+    width: 100%;
+}
+
+.lista-ulaznica .item
+{
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: hsl(0, 0%, 97%);
+    border-radius: 10px;
+}
+.kupi-kartu-btn{
+    background-color: #0353a4;
+}

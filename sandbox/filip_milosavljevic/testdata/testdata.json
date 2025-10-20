@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Marta Stojković",
+        "email": "marta.stojkovic@example.com",
+        "role": "organizer"
+    },
+    {
+        "name": "Mladen Branković",
+        "email": "mladen.brankovic@example.com",
+        "role": "supplier"
+    },
+    {
+        "name": "Filip Milosavljević",
+        "email": "filip.milosavljevic@example.com",
+        "role": "participant"
+    },
+    {
+        "name": "Bogdan Bogićević",
+        "email": "bogdan.bogicevic@example.com",
+        "role": "organizer"
+    },
+    {
+        "name": "Mateja Lapatanović",
+        "email": "mateja.lapatanovic@example.com",
+        "role": "supplier"
+    },
+    {
+        "name": "Aleksandar Vuletić",
+        "email": "aleksandar.vuletic@example.com",
+        "role": "participant"
+    }
+]

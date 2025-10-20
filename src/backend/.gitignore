@@ -1,0 +1,10 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.db
+*.db-wal
+*.db-shm
+*.pdb
+*.vscode/

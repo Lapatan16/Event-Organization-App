@@ -1,0 +1,18 @@
+.p-tabmenu-nav .p-reset{
+  color: #909296 !important;
+}
+
+
+.p-tabmenu .p-tabmenuitem.p-highlight .p-menuitem-link {
+  color: #0353a4 !important;   
+}
+
+.supplier-menu .p-tabview-nav li .p-tabview-nav-link {
+  color: #909296 !important;
+}
+
+
+.supplier-menu .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  color: #0353a4 !important;
+  font-weight: bold;
+}

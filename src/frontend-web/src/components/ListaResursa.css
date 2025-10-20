@@ -1,0 +1,44 @@
+.lista-resursa {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  gap: 8px;
+}
+.lista-resursa .resurs-dugme {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background-color: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.lista-resursa .resurs-dugme:hover {
+    background-color: #cbd5e1;
+  color:  #2563eb;
+}
+
+.lista-resursa .resurs-dugme.selektovan {
+  background-color:#2563eb;
+  color: white;
+}
+.lista-resursa .strelica {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #a4a4a4;
+}
+
+.lista-resursa .resurs-detalji {
+  flex: 1;
+  background-color: #f3f4f6;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 300px;
+}

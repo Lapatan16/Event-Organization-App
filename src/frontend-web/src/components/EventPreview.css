@@ -1,0 +1,134 @@
+.event-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  font-family: sans-serif;
+  color: #1f2937; 
+  background-color: #ffffff;
+  border-radius: 20px;
+
+  height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+  min-height: 0;
+  flex: 1;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.poster-div {
+  
+  margin: 0 auto 20px auto; 
+  object-fit: cover;
+  border-radius: 0.75rem;
+  background-color: #d1d5db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6b7280;
+  font-size: 1rem;
+}
+
+
+.event-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 1,5rem;
+  margin-top: 0;
+  text-align: center;
+}
+
+.event-section {
+  margin-bottom: 1.5rem;
+}
+
+.event-details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+}
+
+.event-tickets p {
+  margin: 0.25rem 0;
+}
+
+.map-placeholder {
+  margin-top: 0.5rem;
+  width: 100%;
+  height: 10rem;
+  background-color: #d1d5db;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6b7280;
+}
+
+.organizer-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.organizer-avatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 9999px;
+  object-fit: cover;
+  background-color: #d1d5db;
+}
+
+.organizer-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.button-primary {
+  font-size: 0.875rem;
+  padding: 0.25rem 0.75rem;
+  background-color: #4f46e5;
+  color: white;
+  border-radius: 9999px;
+  text-decoration: none;
+}
+
+.button-outline {
+  font-size: 0.875rem;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #9ca3af;
+  border-radius: 9999px;
+  background: none;
+}
+.update-btn{
+  display: flex;
+  justify-content: right;
+  padding: 20px;
+}
+.update-btn button{
+  padding: 15px 30px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #0353a4;
+  text-decoration:solid;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.update-btn button:hover{
+  background-color: #003559;
+}
+.my-tabview .p-tabview-nav li .p-tabview-nav-link {
+  color: #909296 !important;
+}
+
+
+.my-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  color: #0353a4 !important;
+  font-weight: bold;
+}

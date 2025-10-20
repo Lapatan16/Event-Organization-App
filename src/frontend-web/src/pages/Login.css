@@ -1,0 +1,36 @@
+.login-outer-div
+{
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-outer-div .main-div-login
+{
+    width: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-outer-div .wrapper-div
+{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+    background-color: white;
+}
+
+.login-outer-div .wrapper-div h1
+{
+    margin-top: 5;
+    margin-bottom: 35px;
+    color: rgb(37, 37, 37);
+}

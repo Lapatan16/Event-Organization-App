@@ -1,0 +1,6 @@
+@eventioBackend_HostAddress = http://localhost:5202
+
+GET {{eventioBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

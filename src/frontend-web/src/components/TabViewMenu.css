@@ -1,0 +1,24 @@
+.tabview{
+    background-color:  #ffffff87;
+    height: 100vh;
+}
+
+.tabview .card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between; 
+  padding: 16px;
+}
+
+.tabview .event-card {
+  flex: 1 1 calc(33.333% - 16px); 
+  max-width: calc(33.333% - 16px);
+  background-color: white;
+  border: 1px solid rgb(175, 174, 174);;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  min-width: 240px; 
+  box-sizing: border-box;
+}

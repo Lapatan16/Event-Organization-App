@@ -1,0 +1,23 @@
+.card-select {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card-select .card-item {
+  border: 2px solid transparent;
+  border-radius: 10px;
+  padding: 4px;
+  cursor: pointer;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-select .card-item:hover {
+  border-color: #bbb;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-select .card-item.selected {
+  border-color: #3A66E5;
+  box-shadow: 0 0 8px rgba(58, 102, 229, 0.5);
+}

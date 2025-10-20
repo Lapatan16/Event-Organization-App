@@ -1,0 +1,324 @@
+.p-stepper-nav button
+{
+    background-color: #f2f2f2;
+}
+
+.p-stepper-panels
+{
+    background-color: #f2f2f2;
+}
+.p-stepper-number {
+  background-color: #0353a4; 
+  color: #ffffff; 
+}
+.novi-dogadjaj-content-div
+{
+    margin: auto;
+    width: 850px;
+    padding: 20px;
+
+    background-color: white;
+    border-radius: 10px;
+}
+.novi-dogadjaj-next-button-div .p-button{
+    background-color: #0353a4;
+}
+.novi-dogadjaj-input-div, .p-dropdown
+{
+    margin-bottom: 15px;
+}
+.opcija-javni .p-button.p-highlight{
+   background: #0353a4 !important; 
+  color: #fff !important;       
+  border-color: #0353a4 !important;
+}
+
+
+.novi-dogadjaj-input-div input, .ql-toolbar.ql-snow, .p-dropdown, .p-selectbutton, .p-calendar, .custom-ant-picker
+{
+    margin-top: 5px;
+}
+
+#naziv
+{
+    width: 100%;
+}
+
+.novi-dogadjaj-dve-kolone
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    padding-bottom: 10px;
+}
+
+.novi-dogadjaj-dve-kolone > div
+{
+    width: 100%;
+}
+
+.novi-dogadjaj-two-items
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.novi-dogadjaj-two-items input 
+{
+    width: 50%;
+}
+
+.novi-dogadjaj-dve-kolone .p-dropdown, .p-selectbutton
+{
+    width: 100%;
+}
+
+.p-selectbutton *
+{
+   width: 50%;
+}
+
+.p-dropdown-trigger
+{
+    justify-content: right;
+    padding-right: 20px;
+}
+
+.novi-dogadjaj-next-button-div
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.novi-dogadjaj-kalendar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.novi-dogadjaj-kalendar .triple
+{
+    /* min-height: 76px; */
+    min-height: 64px;
+    height: 64px;
+}
+
+.novi-dogadjaj-kalendar .par-big
+{
+    font-size: 25px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+
+.novi-dogadjaj-kalendar .custom-ant-picker {
+    width: 180px;
+    height: 45px;
+    padding: 4px 11px;
+}
+
+.novi-dogadjaj-kalendar .custom-ant-picker input {
+    font-size: 19px;
+    height: 100%;
+}
+
+.novi-dogadjaj-kalendar .custom-ant-picker-panel {
+    font-size: 16px;
+}
+
+/*  */
+button.p-datepicker-trigger.p-button.p-component.p-button-icon-only{
+    background-color: #0353a4;
+}
+/* Change the color of the calendar icon */
+
+.novi-dogadjaj-kalendar .custom-ant-picker-suffix {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background-color: #0353a4;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    transition: background-color 0.3s;
+    margin-right: -11px; /* negate padding so it aligns perfectly */
+}
+
+/* Icon inside the purple square */
+.novi-dogadjaj-kalendar .custom-ant-picker-suffix i {
+    color: white;
+     
+    /* font-size: 1rem; */
+}
+
+/* Hover effect */
+.novi-dogadjaj-kalendar .custom-ant-picker-suffix:hover {
+    
+    cursor: pointer;
+}
+
+.novi-dogadjaj-podtermin-div
+{
+    margin: 20px 0;
+}
+
+.novi-dogadjaj-podtermin-div input
+{
+    width: 100%;
+}
+
+.time-frame-div
+{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.time-frame-options
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+.novi-dogadjaj-map-div
+{
+    margin-bottom: 15px;
+}
+
+.novi-dogadjaj-map-div h3
+{
+    margin: 10px 0;
+    margin-top: 0;
+}
+
+.novi-dogadjaj-content-div h4
+{
+    margin: 0;
+    margin-top: 10px;
+}
+
+.ticket-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.ticket-row > * {
+  flex: 1 1 0;
+  min-width: 120px; 
+}
+
+.ticket-row .p-inputnumber {
+  flex: 1 1 0;
+  min-width: 120px;
+}
+
+.ticket-row .p-inputnumber input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.ticket-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.ticket-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.ticket-header > * {
+  flex: 1 1 0;
+  min-width: 120px;
+}
+
+.ticket-header > :last-child {
+  flex: 0 0 auto;
+}
+
+.ticket-buttons
+{
+    margin: 15px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.ticket-buttons .p-button{
+    background-color: #0353a4;
+}
+
+.novi-dogadjaj-payment-div
+{
+    margin-bottom: 30px;
+}
+
+.novi-dogadjaj-pregled-main-div .poster-div
+{
+    margin-top: 20px;
+}
+
+.novi-dogadjaj-pregled-main-div h3
+{
+    margin: 0;
+    margin-top: 25px;
+}
+
+.novi-dogadjaj-pregled-main-div .location-paragraph
+{
+    margin: 10px 0;
+}
+
+.novi-dogadjaj-pregled-main-div .map-location-p
+{
+    margin-bottom: 15px;
+    color: hsl(0, 0%, 35%);
+    font-weight: bolder;
+}
+
+.novi-dogadjaj-content-div label span
+{
+    color: red;
+}
+
+.novi-dogadjaj-content-div h3 span
+{
+    color: red;
+}
+.calendar .p-datepicker-button{
+    background-color: #0353a4;
+}
+
+.my-tabview .p-tabview-nav li .p-tabview-nav-link {
+  color: #909296 !important;
+}
+
+.my-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  color: #0353a4 !important;
+  font-weight: bold;
+}
+
+.novi-dogadjaj-two-items > div {
+    flex: 0 0 calc(50% - 10px); /* 10px = half the gap */
+}

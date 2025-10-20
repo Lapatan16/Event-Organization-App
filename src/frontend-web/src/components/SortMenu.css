@@ -1,0 +1,11 @@
+.sort-menu #sort{
+    height: 36px;
+    width: 150px;
+    border: 1px solid #d1d5db;
+    color: hsl(0, 1%, 50%);
+    font-size: 0.875rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    padding: 0.5rem 0.75 rem 0.5rem 0.5rem;
+ 
+}

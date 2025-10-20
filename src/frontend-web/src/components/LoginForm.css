@@ -1,0 +1,113 @@
+.login-form > *
+{
+    margin-top: 30px;
+}
+
+.link
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+    color: #0353a4;
+    display: block;
+    text-decoration: none;
+}
+
+.link:hover
+{
+    color: #003559;
+}
+
+.first-elem
+{
+    margin-top: 15px;
+}
+
+.login-form .p-password-input
+{
+    padding-right: 0.75rem;
+    justify-content: center;
+}
+
+.login-form .error-wrapper {
+  overflow: hidden;
+  font-size: 0.75rem;
+  color: var(--red-500);
+}
+
+.login-form .p-inputtext, .p-dropdown
+{
+    width: 100%;
+}
+
+.login-form .p-button.p-highlight{
+   background: #0353a4 !important; 
+  color: #fff !important;       
+  border-color: #0353a4 !important;
+}
+
+.login-form button
+{
+    width: 100%;
+    background-color: #006daa;
+}
+/* ... postojeći stilovi ... */
+
+/* Stilizovanje dijaloga */
+.dialog-content-wrapper {
+    padding-top: 0 !important;
+    /* Možete i smanjiti gornji margin na <p> tagu ako je potrebno */
+}
+
+/* Možete i direktno ciljati <p> tag */
+.dialog-content-wrapper p {
+    margin-top: 0;
+}
+.register-main-div
+{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.register-left
+{
+  width: 100%;
+}
+
+.register-left .field 
+{
+  margin-bottom: 25px;
+}
+
+.register-right
+{
+  width: 100%;
+}
+
+.register-right .field 
+{
+  margin-bottom: 25px;
+}
+
+.reg-dugme
+{
+  margin-top: 0px;
+}
+
+.register-right .p-dropdown
+{
+  margin: 0;
+}
+
+.register-right .opis-firme
+{
+  height: 100%;
+}
+
+.register-right .input-textarea
+{
+  resize: none;
+  height: 115px;
+}

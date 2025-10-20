@@ -1,0 +1,147 @@
+.supplier-ponude
+{
+    margin: auto;
+    width: 100%;
+    height: 80vh;
+
+    padding-top: 20px;
+    color: #333;
+    border-radius: 5px;
+}
+
+.supplier-ponude .poster
+{
+    margin: auto;
+    width: 100%;
+    height: 250px;
+
+    /* background-color: rgb(94, 94, 207); */
+    border-radius: 5px;
+}
+
+.supplier-ponude .image-uploader-label-div
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.supplier-ponude .informacije
+{
+    text-align: center;
+}
+
+.supplier-ponude .ponude
+{
+    text-align: center;
+}
+
+.supplier-ponude .buttons
+{
+    margin-top: 20px;
+
+}
+
+.supplier-ponude .buttons > div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.supplier-ponude h2
+{
+    margin: 0;
+}
+
+.supplier-ponude .ponude-wrapper
+{
+    height: 450px;
+    flex-wrap: wrap;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.supplier-ponude .ponude-wrapper .ponude-left
+{
+    width: 30%;
+}
+
+.supplier-ponude .ponude-wrapper .ponude-right
+{
+    width: 65%;
+}
+
+.supplier-ponude .product-card
+{
+    margin: 10px 0;
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: white;
+}
+
+.supplier-ponude .mapped-ponude
+{
+    margin-top: 20px;
+}
+
+.supplier-ponude
+.p-datatable .p-datatable-tbody > tr > td 
+{
+    padding: 0.3rem 0.5rem;
+}
+
+.supplier-dialog-content .field {
+    margin-bottom: 1rem;
+}
+
+.supplier-ponude .info-big {
+    padding-top: 20px;
+    /* padding-bottom: 5px; */
+    flex-wrap: wrap;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.supplier-ponude .info-left,
+.supplier-ponude .info-right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 5px;
+    height: 215px;
+}
+
+.supplier-ponude .info-right .p-inputtextarea {
+    resize: none;
+    text-transform: none;
+    height: 100%;
+}
+
+.supplier-ponude .p-dropdown
+{
+    margin: 0;
+}
+
+.supplier-ponude .ponude-naslov
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons button{
+    background-color: #0353a4 ;
+}
+.add-btn{
+     background-color: #0353a4 ;
+}

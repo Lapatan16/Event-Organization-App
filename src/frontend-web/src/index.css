@@ -1,0 +1,12 @@
+html, body
+{
+    height: 100%;
+    margin: 0;
+
+    background-color: #f2f2f2;
+}
+
+.dashboard-content-div
+{
+    padding-top: 0.5px;
+}

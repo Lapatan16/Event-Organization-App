@@ -1,0 +1,57 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #006daa;
+  padding: 10px 20px;
+  height: 60px;
+}
+
+.navbar .logo {
+  padding: 0 20px;
+  color: #fff;
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar .navbar-right
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .navbar-link
+{
+
+  text-decoration: none;
+  color: white;
+}
+
+.navbar .navbar-link-div
+{
+  height: 60px;
+  padding: 0 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: 2px solid #006daa;
+}
+
+.navbar .navbar-link-div:hover
+{
+  border-color: white;
+}
+
+.navbar .logout-button 
+{
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
+}

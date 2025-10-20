@@ -1,0 +1,47 @@
+.resources-category .category-list{
+  gap: 10px;
+}
+.resources-category .category-button {
+  padding: 12px 24px;
+  border-radius: 12px;
+  background-color: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: 0.2s ease;
+  min-width: 200px;
+  min-height: 50px;
+  font-size: 17px;
+
+}
+.resources-category .category-button:hover {
+  background-color: #cbd5e1;
+  color:  #2563eb;
+  /* border-color: #2563eb; */
+}
+.resources-category .category-button.active {
+  background-color: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+.resources-category .category-details {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f3f4f6;
+  border-radius: 12px;
+}
+
+.resources-category .dugmici-lista {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.resources-category .detail-button {
+  padding: 8px 16px;
+  border: 1px solid #d1d5db;
+  background-color: #e5e7eb;
+  border-radius: 8px;
+  cursor: pointer;
+}

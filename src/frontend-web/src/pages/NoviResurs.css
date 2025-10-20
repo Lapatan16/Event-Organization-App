@@ -1,0 +1,71 @@
+.novi-resurs-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #dfeee9;
+  padding: 40px;
+  min-height: 90vh;
+}
+
+.novi-resurs-container .leva-strana {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 20%;
+}
+
+.novi-resurs-container .leva-strana select,
+.leva-strana input {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.novi-resurs-container .sredina {
+  width: 55%;
+  background-color: #a9cbd3;
+  padding: 30px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.novi-resurs-container .slika-placeholder {
+  background-color: #ccc;
+  height: 200px;
+  border-radius: 12px;
+}
+
+.novi-resurs-container .kontakt textarea,
+.opis textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  resize: none;
+}
+
+.novi-resurs-container label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.novi-resurs-container .dugme-kutija {
+  display: flex;
+  align-items: flex-end;
+}
+
+.novi-resurs-container .dugme-kutija button {
+  background-color: #2e2d59;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.novi-resurs-container input, textarea {
+  text-transform: capitalize;
+}
