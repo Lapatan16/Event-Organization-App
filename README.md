@@ -1,4 +1,3 @@
-"# CompileCrew" 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img src="./docs/logo/png/logo_1.png" alt="logo" width="140"  height="auto" />
